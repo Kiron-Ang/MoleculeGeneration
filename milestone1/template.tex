@@ -17,46 +17,51 @@
 \newcommand{\note}[1]{\textcolor{blue}{{#1}}}
 
 \title{
-  Title of your project \\
+  DSC 4310: Molecule Generation \\
   \vspace{1em}
-  \small{\normalfont Rivas  DSC 4310 Project} 
 }
 
 \author{
-  Names \\
+John Lubisich \\
   Department of Computer Science \\
   Baylor University \\
   \texttt{names@baylor.edu} \\
-  % Examples of more authors
-%   \And
-%   Name \\
-%   Department of Computer Science \\
-%   Stanford University \\
-%   \texttt{name@stanford.edu} \\
-%   \And
-%   Name \\
-%   Department of Computer Science \\
-%   Stanford University \\
-%   \texttt{name@stanford.edu}
+\And
+   Grace Hansen \\
+   Department of Computer Science \\
+   Baylor University \\
+   \texttt{name@baylor.edu} \\
+\And
+   Jon Davidson \\
+   Department of Computer Science \\
+   Baylor University \\
+   \texttt{name@baylor.edu} \\ 
+\And
+   Kiron Ang \\
+   Department of Computer Science \\
+   Baylor University \\
+   \texttt{kiron\_ang1@baylor.edu} \\
+\And
+   Taylor Allen \\
+   Department of Computer Science \\
+   Baylor University \\
+   \texttt{name@baylor.edu}
+\And
+   Zander Henson \\
+   Department of Computer Science \\
+   Baylor University \\
+   \texttt{name@baylor.edu}
 }
 
 \begin{document}
 
 \maketitle
 
-% \begin{abstract}
-%   Required for final report
-% \end{abstract}
-
-
-\note{This template is built on a NeurIPS template\footnote{\url{https://www.overleaf.com/latex/templates/neurips-2019/tprktwxmqmgk}} and provided for your convenience.}
-
-
 \section{Key Information to include}
 
 \begin{itemize}
-    \item All collaborators (members of the team):
-    \item Collaborators roles (lead, scribe, data scientist, ML scientist, etc.):
+    \item All collaborators (members of the team): John Lubisich, Grace Hansen, Jon Davidson, Kiron Ang, Taylor Allen, and Zander Henson.
+    \item Collaborators roles (lead, scribe, data scientist, ML scientist, etc.): All collaborators are equally contributing data scientists.
 \end{itemize}
 
 
@@ -66,21 +71,19 @@
     \centering
     \begin{tabular}{ll}
         \toprule
-        \textbf{Title} & Know What You Don't Know: Unanswerable Questions for SQuAD \\
+        \textbf{Title} & DiPol-GAN: Generating Molecular Graphs Adversarially with Relational Differentiable Pooling\\
         \midrule
-        \textbf{Venue} & Association for Computational Linguistics (ACL) \\
-        \textbf{Year}  & 2018 \\
-        \textbf{URL}   & \url{https://www.aclweb.org/anthology/P18-2124/} \\
+        \textbf{Venue} & NeurIPS Workshop \\
+        \textbf{Year}  & 2019 \\
+        \textbf{URL}   & \url{https://www.rivas.ai/pdfs/guarino2019dipol.pdf} \\
         \bottomrule
     \end{tabular}
     \vspace{1em}
-    \caption{Sample table for bibliographical information~\cite{rajpurkar2018know}.}
+    \caption{Bibliographical information regarding the paper summarized~\cite{rivas}.}
 \end{table}
 
 \paragraph{Background.}
-Set the scene for the paper, looking to the introduction section, as well as the related work or background sections, if they exist.
-What motivations and problems do the authors cite when explaining why they think this work is important? 
-What problems are they attempting to solve, or what knowledge are they hoping to discover?
+The authors begin by emphasizing the increasing interest in chemistry-related applications of deep learning and molecular graphs. In particular, they argue that generative models, namely approaches that involve generative adversarial networks (GANs), demonstrate incredible promise because they allow for optimization without explicitly defining likelihoods. As such, the paper describes a GAN approach called "DiPol-GAN" that supposedly involves a superior discriminator to create excellent graph representations for drug discovery. 
 
 \paragraph{Summary of contributions.}
 Each paper is published because it adds something to the ongoing research conversation. It teaches us something we didn't know before, or provides us with a tool we didn't have, etc.
